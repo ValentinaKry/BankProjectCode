@@ -43,8 +43,6 @@ class ViewController: UIViewController {
             buttons.append(button)
         }
         
-        
-
         return buttons
     }()
 
@@ -107,8 +105,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         createButton()
-        
-
 
             //Add Main label (Накопить за 52 недели)
         view.addSubview(mainLabel)
